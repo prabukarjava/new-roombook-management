@@ -30,7 +30,7 @@ public class ApplicationTest {
 	    int randomServerPort;
 	    
 	    @Test
-	    public void testGetEmployeeListSuccess() throws URISyntaxException 
+	    public void testGetCustomerListSuccess() throws URISyntaxException 
 	    {
 	        RestTemplate restTemplate = new RestTemplate();
 	        
@@ -45,7 +45,7 @@ public class ApplicationTest {
 	    }
 
 	    @Test
-	    public void testGetEmployeeListSuccessWithHeaders() throws URISyntaxException 
+	    public void testGetCustomerListSuccessWithHeaders() throws URISyntaxException 
 	    {
 	        RestTemplate restTemplate = new RestTemplate();
 	        
